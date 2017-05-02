@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="https://192.168.100.223:8281/vco/client/7.0.1.3533702" href="client.jnlp" spec="1.0+" version="7.0.1.3533702">
+    <information>
+        <title>vRealize Orchestrator Client</title>
+        <vendor>VMware, Inc.</vendor>
+        <icon href="vco-loading.gif" kind="splash"/>
+    </information>
+    <security>
+        <all-permissions/>
+    </security>
+    <resources>
+        <j2se href="http://java.sun.com/products/autodl/j2se" java-vm-args="-Xmx512m" version="1.8+"/>
+        <jar href="lib/TableLayout.jar"/>
+        <jar href="lib/aopalliance.jar"/>
+        <jar href="lib/bcpkix-jdk15on.jar"/>
+        <jar href="lib/bcprov-jdk15on.jar"/>
+        <jar href="lib/commons-codec.jar"/>
+        <jar href="lib/commons-io.jar"/>
+        <jar href="lib/commons-lang.jar"/>
+        <jar href="lib/commons-logging.jar"/>
+        <jar href="lib/geronimo-jms_1.1_spec.jar"/>
+        <jar href="lib/hornetq-core-client.jar"/>
+        <jar href="lib/hornetq-jms-client.jar"/>
+        <jar href="lib/httpclient.jar"/>
+        <jar href="lib/httpcore.jar"/>
+        <jar href="lib/image4j.jar"/>
+        <jar href="lib/jchronic.jar"/>
+        <jar href="lib/jgraphx.jar"/>
+        <jar href="lib/log4j.jar"/>
+        <jar href="lib/netty.jar"/>
+        <jar href="lib/o11n-application.jar"/>
+        <jar href="lib/o11n-gui-resources.jar"/>
+        <jar href="lib/o11n-gui.jar"/>
+        <jar href="lib/o11n-j2eeutil.jar"/>
+        <jar href="lib/o11n-localization.jar"/>
+        <jar href="lib/o11n-model.jar"/>
+        <jar href="lib/o11n-rest-client-services.jar"/>
+        <jar href="lib/o11n-rest-client-stubs.jar"/>
+        <jar href="lib/o11n-scriptingapi.jar"/>
+        <jar href="lib/o11n-scriptingmodel.jar"/>
+        <jar href="lib/o11n-sdkapi.jar"/>
+        <jar href="lib/o11n-util.jar"/>
+        <jar href="lib/o11n-workflow-diagram.jar"/>
+        <jar href="lib/ognl.jar"/>
+        <jar href="lib/plexus-archiver.jar"/>
+        <jar href="lib/plexus-container-default.jar"/>
+        <jar href="lib/plexus-utils.jar"/>
+        <jar href="lib/rhino.jar"/>
+        <jar href="lib/slf4j-api.jar"/>
+        <jar href="lib/slf4j-log4j12.jar"/>
+        <jar href="lib/spring-aop.jar"/>
+        <jar href="lib/spring-beans.jar"/>
+        <jar href="lib/spring-context.jar"/>
+        <jar href="lib/spring-core.jar"/>
+        <jar href="lib/spring-web.jar"/>
+        <jar href="lib/trident.jar"/>
+    </resources>
+    <application-desc main-class="ch.dunes.vso.app.VSOApplication">
+        <argument>--default-server-host=192.168.100.223:8281</argument>
+    </application-desc>
+</jnlp>
